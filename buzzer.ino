@@ -8,6 +8,9 @@ void setup() {
     Serial.begin(9600);
     Serial.println("Morse encoder project");
     Serial.println("All systems ready");
+    Serial.println();
+    Serial.println("Pantaleón Medrano");
+    Serial.println("0900-12-10622");
     delay(1000);
 }
 
