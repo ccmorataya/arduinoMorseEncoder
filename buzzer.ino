@@ -1,5 +1,5 @@
 int buzzerPin = 9;
-int freq = 880;
+int freq = 2500;
 
 void setup() {
     pinMode(buzzerPin, OUTPUT);
@@ -16,129 +16,154 @@ void loop() {
         char serialListener = Serial.read();
         switch (serialListener){
             case 'A':
+            case 'a':
                 dot();
                 line();
                 break;
             case 'B':
+            case 'b':
                 line();
                 dot();
                 dot();
                 dot();
                 break;
             case 'C':
+            case 'c':
                 line();
                 dot();
                 line();
                 dot();
                 break;
             case 'D':
+            case 'd':
                 line();
                 dot();
                 dot();
                 break;
             case 'E':
+            case 'e':
                 dot();
                 break;
             case 'F':
+            case 'f':
                 dot();
                 dot();
                 line();
                 dot();
                 break;
             case 'G':
+            case 'g':
                 line();
                 line();
                 dot();
                 break;
             case 'H':
+            case 'h':
                 dot();
                 dot();
                 dot();
                 dot();
                 break;
             case 'I':
+            case 'i':
                 dot();
                 dot();
                 break;
             case 'J':
+            case 'j':
                 dot();
                 line();
                 line();
                 line();
                 break;
             case 'K':
+            case 'k':
                 line();
                 dot();
                 line();
                 break;
             case 'L':
+            case 'l':
                 dot();
                 line();
                 dot();
                 dot();
                 break;
             case 'M':
+            case 'm':
                 line();
                 line();
                 break;
             case 'N':
+            case 'n':
                 line();
                 dot();
                 break;
             case 'O':
+            case 'o':
                 line();
                 line();
                 line();
                 break;
             case 'P':
+            case 'p':
                 dot();
                 line();
                 line();
                 dot();
                 break;
             case 'Q':
+            case 'q':
                 line();
                 line();
                 dot();
                 line();
                 break;
             case 'R':
+            case 'r':
                 dot();
                 line();
                 dot();
                 break;
             case 'S':
+            case 's':
                 dot();
                 dot();
                 dot();
                 break;
             case 'T':
+            case 't':
                 line();
                 break;
             case 'U':
+            case 'u':
                 dot();
                 dot();
                 line();
                 break;
             case 'V':
+            case 'v':
                 dot();
                 dot();
                 dot();
                 line();
                 break;
             case 'X':
+            case 'x':
                 line();
                 dot();
                 dot();
                 line();
                 break;
             case 'Y':
+            case 'y':
                 line();
                 dot();
                 line();
                 line();
                 break;
             case 'Z':
+            case 'z':
                 line();
                 line();
                 dot();
