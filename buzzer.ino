@@ -6,7 +6,8 @@ void setup() {
     pinMode(LED_BUILTIN, OUTPUT);
     delay(1000);
     Serial.begin(9600);
-    Serial.println("HELLO, DEBUGGER IS NOW RUNNING ON SERIAL PORT AT 9600 bps");
+    Serial.println("Morse encoder project");
+    Serial.println("All systems ready");
     delay(1000);
 }
 
